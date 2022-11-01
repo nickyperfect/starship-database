@@ -3,7 +3,7 @@
         "name": "Enterprise",
         "registry": "NCC-1701-E",
         "class": "Constitution",
-        "type": "Heavy Cruiser (CH)",
+        "type": "Multi-Mission Heavy Cruiser (CH)",
         "commissioned": "2372",
         "commanding officer": "Jean-Luc Picard",
         "mission": "Starfleet Flagship"
@@ -15,7 +15,7 @@
         "type": "Deep Space Exploration Cruiser (CE)",
         "commissioned": "2371",
         "commanding officer": "Chakotay",
-        "mission": "Diplomatic Outreach, Exploration, Delta Quadrant"
+        "mission": "Diplomatic Outreach & Exploration, Delta Quadrant"
     },
     "starship3": {
         "name": "USS Defiant",
@@ -39,10 +39,10 @@
         "name": "USS Excalibur",
         "registry": "NCC-26517-A",
         "class": "Galaxy",
-        "type": "Heavy Exploration Cruiser",
+        "type": "Multi-Mission Heavy Exploration Cruiser (CKE)",
         "commissioned": "2376",
         "commanding officer": "Elizabeth Shelby",
-        "mission": "Scientific Research, Exploration, Alpha Quadrant"
+        "mission": "Scientific Research & Exploration, Starleb Sector, Alpha Quadrant"
     },
     "starship6": {
         "name": "USS Farragut",
@@ -57,16 +57,16 @@
         "name": "USS Sesquehanna",
         "registry": "NCC-62797",
         "class": "Akira",
-        "type": "Battlecruiser (CGH)",
+        "type": "Multi-Mission Battlecruiser (CGH)",
         "commissioned": "2371",
         "commanding officer": "Tam Okala",
-        "mission": "Response and Patrol, Federation Interior, Alpha & Beta Quadrants"
+        "mission": "Response and Patrol, Vega Sector, Alpha Quadrant"
     },
     "starship8": {
         "name": "USS Boston",
         "registry": "NCC-42076",
         "class": "Centaur",
-        "type": "Fast Frigate (FF)",
+        "type": "Fast Response Frigate (FF)",
         "commissioned": "2321",
         "commanding officer": "Charlene Evans",
         "mission": "Inerdiction and Patrol, Tomed Sector, Alpha Quadrant"
@@ -78,13 +78,13 @@
         "type": "Multi-Mission Heavy Frigate (FRH)",
         "commissioned": "2319",
         "commanding officer": "T'vek",
-        "mission": "Resupply and Personnel Transport, Federation Interior, Alpha Quadrant"
+        "mission": "Resupply and Personnel Transport, Maxia Sector, Alpha Quadrant"
     },
     "starship10": {
         "name": "USS Entente",
         "registry": "NCC-73820",
         "class": "Entente",
-        "type": "Dreadnought (DN)",
+        "type": "Multi-Mission Dreadnought (DN)",
         "commissioned": "2372",
         "commanding officer": "Patrick Lahey",
         "mission": "Sector Defense, Sierra Sector, Beta Quadrant"
