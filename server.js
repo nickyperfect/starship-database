@@ -22,6 +22,16 @@ app.get('/listStarships', function (req, res) {
     });
 })
 
+app.get('/:name', function (req, res) {
+    // First read existing users.
+    fs.readFile(__dirname + "/" + "starships.json", 'utf8', function (err, data) {
+        var users = JSON.parse(data);
+        var user = users["starship" + req.params.id]
+        console.log(user);
+        res.end(JSON.stringify(user));
+    });
+})
+
 app.post('/addShip', function (req, res) {
     // First read existing users.
     fs.readFile(__dirname + "/" + "starships.json", 'utf8', function (err, data) {
