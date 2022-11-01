@@ -2,10 +2,33 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
+
+var user = {
+    "starship11": {
+        "name": "USS Prometheus",
+        "registry": "NCC-59650",
+        "class": "Prometheus",
+        "type": "Multi-Vector Assault Cruiser (CT)",
+        "commissioned": "2374",
+        "commanding officer": "Garm Bel Iblis",
+        "mission": "Patrol, Romulan Neutral Zone, Beta Quadrant"
+    }
+}
+
 app.get('/listStarships', function (req, res) {
     fs.readFile(__dirname + "/" + "starships.json", 'utf8', function (err, data) {
         console.log(data);
         res.end(data);
+    });
+})
+
+app.post('/addShip', function (req, res) {
+    // First read existing users.
+    fs.readFile(__dirname + "/" + "starships.json", 'utf8', function (err, data) {
+        data = JSON.parse(data);
+        data["starship11"] = user["starship11"];
+        console.log(data);
+        res.end(JSON.stringify(data));
     });
 })
 
